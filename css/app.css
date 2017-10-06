@@ -1,0 +1,7 @@
+/* selector {property:value;} */
+nav {border: 1px solid red;}
+
+
+#indexpage .mainnavigation li:nth-child(1) {background-color: yellow;}
+#portfoliopage .mainnavigation li:nth-child(2) {background-color: yellow;}
+#aboutpage .mainnavigation li:nth-child(3) {background-color: yellow;}
