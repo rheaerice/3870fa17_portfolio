@@ -1,6 +1,24 @@
 /* selector {property:value;} */
-nav {border: 1px solid red;}
+/*Menu */
+nav {font-family: 'pt sans narrow',sans-serif;}
+li {
+  display: inline-block;
+  padding: 5px;
+}
 
+
+/*Logo */
+h1 {
+  font-family: 'anton',cursive;
+}
+
+/*headline one*/
+.bigheadline {
+  text-align: center;
+}
+h2 {
+  font-family: 'forum',serif;
+}
 
 #indexpage .mainnavigation li:nth-child(1) {background-color: yellow;}
 #portfoliopage .mainnavigation li:nth-child(2) {background-color: yellow;}
