@@ -3,12 +3,14 @@
 nav {font-family: 'Oswald', sans-serif;}
 li {
   display: inline-block;
-  margin: 5px;
-  margin-top: 20px;
+  padding: 2px;
+  margin-top: 55px;
+  margin-left: 45px;
 }
 
 
 /*Logo */
+
 h1 {
   font-family: 'anton',cursive;
   font-size: 80px;
@@ -18,10 +20,18 @@ h1 {
 /*headline one*/
 .bigheadline {
   text-align: center;
+  padding-top: 200px;
+  height: 650px;
+  background-image: url(../images/landing.jpg);
 }
 h2 {
   font-family: 'forum',serif;
   font-size: 45px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 25px;
+  color: #4D626B;
 }
 
 #indexpage .mainnavigation li:nth-child(1) {background-color: yellow;}
@@ -30,11 +40,17 @@ h2 {
 
 
 /*link to email form*/
-.indexdescription {
-  padding: 150px 150px 50px 150px;
+.smallheadline {
+  margin-left: 200px;
   background-image: url(landing.jpg);
+  text-align: left;
 }
-
+h4 {
+  margin-top: 100px;
+}
+.headlinedescription p {
+  font-size: 17px;
+}
 .emailform{
   margin: auto;
 }
@@ -50,7 +66,7 @@ h2 {
 
 
   /*bottom half testimonials*/
-  h4 {
+  h5 {
     font-family: 'forum',cursive;
     text-align: center;
 
