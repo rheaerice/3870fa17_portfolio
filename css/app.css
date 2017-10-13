@@ -3,7 +3,8 @@
 nav {font-family: 'Oswald', sans-serif;}
 li {
   display: inline-block;
-  padding: 5px;
+  margin: 5px;
+  margin-top: 20px;
 }
 
 
@@ -11,6 +12,7 @@ li {
 h1 {
   font-family: 'anton',cursive;
   font-size: 80px;
+  margin-top: 20px;
 }
 
 /*headline one*/
@@ -30,11 +32,11 @@ h2 {
 /*link to email form*/
 .indexdescription {
   padding: 150px 150px 50px 150px;
-  background-image: image();
+  background-image: url(landing.jpg);
 }
 
 .emailform{
-
+  margin: auto;
 }
 
 /*emailform page*/
@@ -51,7 +53,7 @@ h2 {
   h4 {
     font-family: 'forum',cursive;
     text-align: center;
-  
+
   }
   .testimonial {
     text-align: center;
@@ -66,8 +68,6 @@ h2 {
 
   /*footer details*/
   .footer {
-
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
