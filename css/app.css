@@ -1,6 +1,6 @@
 /* selector {property:value;} */
 /*Menu */
-nav {font-family: 'pt sans narrow',sans-serif;}
+nav {font-family: 'Oswald', sans-serif;}
 li {
   display: inline-block;
   padding: 5px;
@@ -10,6 +10,7 @@ li {
 /*Logo */
 h1 {
   font-family: 'anton',cursive;
+  font-size: 80px;
 }
 
 /*headline one*/
@@ -18,13 +19,25 @@ h1 {
 }
 h2 {
   font-family: 'forum',serif;
+  font-size: 45px;
 }
 
 #indexpage .mainnavigation li:nth-child(1) {background-color: yellow;}
 #portfoliopage .mainnavigation li:nth-child(2) {background-color: yellow;}
 #aboutpage .mainnavigation li:nth-child(3) {background-color: yellow;}
 
-/*feedback page*/
+
+/*link to email form*/
+.indexdescription {
+  padding: 150px 150px 50px 150px;
+  background-image: image();
+}
+
+.emailform{
+
+}
+
+/*emailform page*/
 .tealbg {background-color: teal;}
 .feedbackform {
   padding: 100px;
@@ -32,3 +45,37 @@ h2 {
 
   /*if you want the background image in the back of the whole page, use body as a selector. but change the size of image*/
   }
+
+
+  /*bottom half testimonials*/
+  h4 {
+    font-family: 'forum',cursive;
+    text-align: center;
+  
+  }
+  .testimonial {
+    text-align: center;
+    margin: 150px -25px 50px -25px;
+  }
+
+  /*menu links at the bottom*/
+  .menu {
+    margin: auto;
+    text-align: center;
+  }
+
+  /*footer details*/
+  .footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+  }
+h6 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+}
