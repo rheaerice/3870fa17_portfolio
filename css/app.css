@@ -1,4 +1,9 @@
 /* selector {property:value;} */
+/*FONTS
+(Big headline) font-family: 'Forum', cursive;
+(LOGO) font-family: 'Anton', sans-serif;
+(text) font-family: 'PT Sans Narrow', sans-serif;
+(NAV) font-family: 'Oswald', sans-serif;*/
 /*Menu */
 nav {font-family: 'Oswald', sans-serif;}
 li {
@@ -6,13 +11,24 @@ li {
   padding: 2px;
   margin-top: 55px;
   margin-left: 45px;
+  color: #83929E;
+}
+
+.menunavigation a:link, a:visited {
+  text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #83929E;
+}
+.menunavigation a:hover, a:active {
+  color: #BDD1E0;
 }
 
 
 /*Logo */
 
 h1 {
-  font-family: 'anton',cursive;
+  font-family: 'anton', sans-serif;
   font-size: 80px;
   margin-top: 20px;
 }
@@ -25,13 +41,14 @@ h1 {
   background-image: url(../images/landing.jpg);
 }
 h2 {
-  font-family: 'forum',serif;
+  font-family: 'forum', cursive;
   font-size: 45px;
   font-weight: bold;
 }
 h3 {
-  font-size: 25px;
+  font-size: 27px;
   color: #4D626B;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 #indexpage .mainnavigation li:nth-child(1) {background-color: yellow;}
@@ -42,35 +59,77 @@ h3 {
 /*link to email form*/
 .smallheadline {
   margin-left: 200px;
-  background-image: url(landing.jpg);
   text-align: left;
 }
 h4 {
   margin-top: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: #454C52;
 }
 .headlinedescription p {
-  font-size: 17px;
-}
-.emailform{
-  margin: auto;
+  font-size: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin-top: -20px;
 }
 
 /*emailform page*/
-.tealbg {background-color: teal;}
-.feedbackform {
-  padding: 100px;
-  background-image: url();
+.emailbutton {
+  color: white;
+  padding: 6px 40px 6px 40px;
+  font-family: 'forum', cursive;
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 5px;
+  background-color: #83929E;
+  border-width: 2px;
+  border: solid;
+  border-color: #83929E;
 
-  /*if you want the background image in the back of the whole page, use body as a selector. but change the size of image*/
-  }
+}
+.emailbutton:hover {
+  background-color: white;
+  color: #83929E;
+  border-color: #83929E;
+  border: solid;
+  border-width: 2px;
+}
+.emailheadline {
+  font-family: 'Oswald', sans-serif;
+}
+.emailsubhead, label {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 18px;
+}
+.submitbutton input {
+  color: white;
+  background-color: #5D656B;
+  padding: 6px 30px;
+  border: solid;
+  border-color: #5D656B;
+  border-radius: 2px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+}
+
 
 
   /*bottom half testimonials*/
+  .howitworks {
+    height: 400px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 2rem 0;
+  }
   h5 {
     font-family: 'forum',cursive;
     text-align: center;
+    font-size: 30px;
+    margin: 50px;
+    background-color: #DCE7ED;
 
   }
+
   .testimonial {
     text-align: center;
     margin: 150px -25px 50px -25px;
@@ -87,7 +146,7 @@ h4 {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: gray;
+    background-color: #83929E;
     color: white;
     text-align: center;
   }
