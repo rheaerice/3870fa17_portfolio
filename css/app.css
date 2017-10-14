@@ -126,7 +126,7 @@ h4 {
     font-family: 'forum',cursive;
     text-align: center;
     font-size: 30px;
-    margin: 50px;
+    margin: 50px 50px 30px 50px;
     background-color: #DCE7ED;
   }
   .howitworks figcaption {
@@ -137,14 +137,15 @@ h4 {
 
   .testimonial {
     text-align: center;
-    margin: 150px -25px 50px -25px;
+    margin: 5px -15px 0px -15px;
   }
 
   /*menu links at the bottom*/
-  .menu {
+  .bottommenu {
     margin: auto;
     text-align: center;
   }
+  .menuabout
 
   /*footer details*/
   .footer {
