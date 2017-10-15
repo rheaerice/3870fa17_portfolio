@@ -40,6 +40,12 @@ h1 {
   height: 650px;
   background-image: url(../images/landing.jpg);
 }
+.bigheadlineabout {
+  text-align: center;
+  padding-top: 200px;
+  height: 650px;
+  background-image: url(../images/about1.jpg);
+}
 h2 {
   font-family: 'forum', cursive;
   font-size: 45px;
@@ -79,7 +85,7 @@ h4 {
   padding: 6px 40px 6px 40px;
   font-family: 'forum', cursive;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 24px;
   border-radius: 5px;
   background-color: #83929E;
   border-width: 2px;
@@ -112,7 +118,31 @@ h4 {
   font-size: 20px;
 }
 
-
+/*about instagram features*/
+.getconnected {
+  height: 600px;
+  margin-top: 100px;
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom-style: dashed;
+  border-bottom-color: #90999E;
+  border-bottom-width: thin;
+}
+.getconnected h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: #454C52;
+  text-align: center;
+  margin-top: 10px;
+}
+.getconnected figcaption {
+  font-family: 'forum',cursive;
+  font-weight: bold;
+  font-size: 22px;
+}
+.getconnected img {
+  box-shadow: 4px 4px #9EA8AD;
+}
 
   /*bottom half testimonials*/
   .howitworks {
@@ -143,7 +173,43 @@ h4 {
   }
 
   /*menu links at the bottom*/
-
+  /*about page*/
+  .aboutmenu {
+    height: 650px;
+    background-image: url(../images/about2.jpg);
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: #90999E;
+    border-bottom-width: thick;
+  }
+  .aboutmenu p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #4C5052;
+    text-decoration: underline;
+    margin: -5px;
+    font-weight: 100;
+  }
+.aboutmenu a:link, a:visited {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 27px;
+  text-align: center;
+  border-style: solid;
+  border-color: #75797A;
+  border-width: thin;
+  text-align: center;
+  padding: 65px 100px 10px 100px;
+  color: #75797A;
+}
+.aboutmenu a:hover, a:active {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 37px;
+  color: black;
+}
   .bottommenu {
     height: 650px;
     background-image: url(../images/ocean.jpg);
@@ -165,9 +231,6 @@ h4 {
     margin: -5px;
     font-weight: 100;
   }
-  .menuabout {
-    margin-top: 140px;
-  }
 
   .bottommenu a:link, a:visited {
     font-family: 'PT Sans Narrow', sans-serif;
@@ -183,13 +246,14 @@ h4 {
   .bottommenu a:hover, a:active {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 37px;
-    font-style: italic;
     color: black;
   }
   .menuportfolio {
     margin-top: -150px;
   }
-
+  .menuabout {
+    margin-top: 140px;
+  }
 
   /*footer details*/
   .footer {
