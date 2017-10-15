@@ -46,6 +46,12 @@ h1 {
   height: 650px;
   background-image: url(../images/about1.jpg);
 }
+.bigheadlinefolio {
+  text-align: center;
+  padding-top: 200px;
+  height: 650px;
+  background-image: url(../images/portfolio1.jpg);
+}
 h2 {
   font-family: 'forum', cursive;
   font-size: 45px;
@@ -173,6 +179,7 @@ h4 {
   }
 
   /*menu links at the bottom*/
+
   /*about page*/
   .aboutmenu {
     height: 650px;
